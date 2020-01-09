@@ -29,8 +29,12 @@
             <div class="row margin-top-50">
                 <div class="col-md-4">
                     <div class="form-group">
-                        <h4>Search by Date</h4>
-                        <input type="datetime" class="form-control" id="datetime" placeholder="Insert Date">
+                        <h4>Search Criteria</h4>
+                        <input type="datetime" class="form-control" id="datetime" placeholder="Date">
+                        <input type="text" class="form-control" id="state" placeholder="State">
+                        <input type="text" class="form-control" id="city" placeholder="City">
+                        <input type="text" class="form-control" id="country" placeholder="Country">
+                        <input type="text" class="form-control" id="shape" placeholder="Shape">
                         <a id="search" class="btn btn-default">Search</a>
                         <a id="reset" class="btn btn-default" onClick="window.location.reload()">Reset search</a>
                     </div>                  
@@ -55,7 +59,7 @@
                 </div>
             </div>
             <footer class="footer">
-                <span class="bottom">UFO Sightings by CF </span>
+                <span class="bottom">UFO Sightings by CF</span>
             </footer>              
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
